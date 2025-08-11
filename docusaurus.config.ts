@@ -1,12 +1,30 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import ConfigLocalized from './docusaurus.config.localized.json';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
+const defaultLocale = 'es';
+
+function getLocalizedConfigValue(key: keyof typeof ConfigLocalized) {
+  const currentLocale = process.env.DOCUSAURUS_CURRENT_LOCALE ?? defaultLocale;
+  const values = ConfigLocalized[key];
+  if (!values) {
+    throw new Error(`Localized config key=${key} not found`);
+  }
+  const value = values[currentLocale] ?? values[defaultLocale];
+  if (!value) {
+    throw new Error(
+      `Localized value for config key=${key} not found for both currentLocale=${currentLocale} or defaultLocale=${defaultLocale}`,
+    );
+  }
+  return value;
+}
+
 const config: Config = {
   title: 'VolPYT',
-  tagline: 'Documentation from Plan Your Team, Plan Your Time',
+  tagline: getLocalizedConfigValue('tagline'),
   favicon: 'img/mine/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -47,22 +65,6 @@ const config: Config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: false, // En el futuro, si se desea habilitar el blog, cambiar a true
-        // {
-        //   showReadingTime: true,
-        //   feedOptions: {
-        //     type: ['rss', 'atom'],
-        //     xslt: true,
-        //   },
-        //   // Please change this to your repo.
-        //   // Remove this to remove the "edit this page" links.
-        //   editUrl:
-        //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        //   // Useful options to enforce blogging best practices
-        //   onInlineTags: 'warn',
-        //   onInlineAuthors: 'warn',
-        //   onUntruncatedBlogPosts: 'warn',
-        // },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -117,7 +119,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Documentation',
         },
         {
           href: 'https://github.com/facebook/docusaurus',
