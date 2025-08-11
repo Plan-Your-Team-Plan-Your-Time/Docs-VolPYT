@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="4896" height="816" viewBox="0 0 48960 8160" preserveAspectRatio="xMidYMid meet">
+  <title>Paleta de colores</title>
+  <path id="Fondo con arcos" d="
+    M 1632,0
+    H 47328
+    A 1632 1632 0 0 1 48960 1632
+    V 8160
+    H 0
+    V 1632
+    A 1632 1632 0 0 1 1632 0
+    Z
+  " fill="#FFFFFF"/>
+
+  <g id="Paleta principal" style="transform: none;" text-anchor="middle">
+    <rect x="0000" y="1632" width="2720" height="6528" fill="#0F404B"/>
+    <rect x="2720" y="1632" width="2720" height="6528" fill="#F28C28"/>
+    <rect x="5440" y="1632" width="2720" height="6528" fill="#FBFBF8"/>
+    <rect x="8160" y="1632" width="2720" height="6528" fill="#1E2D2F"/>
+    <text x="5440.0" y="1244" font-size="1224" font-weight="800" letter-spacing="0.4">Paleta principal</text>
+    <g id="Texto colores" transform="translate(0,4896)" font-size="600" font-weight="400" letter-spacing="0.4">
+      <text x="1360.0" y="1244" fill="#1E2D2F">#0F404B</text>
+      <text x="4080.0" y="1244" fill="#0F404B">#F28C28</text>
+      <text x="6800.0" y="1244" fill="#F28C28">#FBFBF8</text>
+      <text x="9520.0" y="1244" fill="#FBFBF8">#1E2D2F</text>
+
+      <text x="1360.0" y="2044" fill="#FBFBF8">#0F404B</text>
+      <text x="4080.0" y="2044" fill="#1E2D2F">#F28C28</text>
+      <text x="6800.0" y="2044" fill="#0F404B">#FBFBF8</text>
+      <text x="9520.0" y="2044" fill="#F28C28">#1E2D2F</text>
+
+      <text x="1360.0" y="2844" fill="#F28C28">#0F404B</text>
+      <text x="4080.0" y="2844" fill="#FBFBF8">#F28C28</text>
+      <text x="6800.0" y="2844" fill="#1E2D2F">#FBFBF8</text>
+      <text x="9520.0" y="2844" fill="#0F404B">#1E2D2F</text>
+    </g>
+  </g>
+  <g id="Variantes útiles" transform="translate(10880,0)" text-anchor="middle">
+    <rect x="0000" y="1632" width="2720" height="6528" fill="#0D3842"/>
+    <rect x="2720" y="1632" width="2720" height="6528" fill="#E2EFF1"/>
+    <rect x="5440" y="1632" width="2720" height="6528" fill="#D97C22"/>
+    <rect x="8160" y="1632" width="2720" height="6528" fill="#FFD7A3"/>
+    <text x="5440.0" y="1244" font-size="1224" font-weight="800" letter-spacing="0.4">Variantes útiles</text>
+    <g id="Texto colores" transform="translate(0,4896)" font-size="600" font-weight="400" letter-spacing="0.4">
+      <text x="1360.0" y="1244" fill="#FFD7A3">#0D3842</text>
+      <text x="4080.0" y="1244" fill="#0D3842">#E2EFF1</text>
+      <text x="6800.0" y="1244" fill="#E2EFF1">#D97C22</text>
+      <text x="9520.0" y="1244" fill="#D97C22">#FFD7A3</text>
+
+      <text x="1360.0" y="2044" fill="#D97C22">#0D3842</text>
+      <text x="4080.0" y="2044" fill="#FFD7A3">#E2EFF1</text>
+      <text x="6800.0" y="2044" fill="#0D3842">#D97C22</text>
+      <text x="9520.0" y="2044" fill="#E2EFF1">#FFD7A3</text>
+
+      <text x="1360.0" y="2844" fill="#E2EFF1">#0D3842</text>
+      <text x="4080.0" y="2844" fill="#D97C22">#E2EFF1</text>
+      <text x="6800.0" y="2844" fill="#FFD7A3">#D97C22</text>
+      <text x="9520.0" y="2844" fill="#0D3842">#FFD7A3</text>
+    </g>
+  </g>
+  <g id="Semánticos" transform="translate(21760,0)" text-anchor="middle">
+    <rect x="0000" y="1632" width="2720" height="6528" fill="#2E7D6E"/>
+    <rect x="2720" y="1632" width="2720" height="6528" fill="#2C7DA0"/>
+    <rect x="5440" y="1632" width="2720" height="6528" fill="#F5B301"/>
+    <rect x="8160" y="1632" width="2720" height="6528" fill="#D64545"/>
+    <text x="5440.0" y="1244" font-size="1224" font-weight="800" letter-spacing="0.4">Semánticos</text>
+    <g id="Texto colores" transform="translate(0,4896)" font-size="600" font-weight="400" letter-spacing="0.4">
+      <text x="1360.0" y="1244" fill="#D64545">#2E7D6E</text>
+      <text x="4080.0" y="1244" fill="#2E7D6E">#2C7DA0</text>
+      <text x="6800.0" y="1244" fill="#2C7DA0">#F5B301</text>
+      <text x="9520.0" y="1244" fill="#F5B301">#D64545</text>
+
+      <text x="1360.0" y="2044" fill="#F5B301">#2E7D6E</text>
+      <text x="4080.0" y="2044" fill="#D64545">#2C7DA0</text>
+      <text x="6800.0" y="2044" fill="#2E7D6E">#F5B301</text>
+      <text x="9520.0" y="2044" fill="#2C7DA0">#D64545</text>
+
+      <text x="1360.0" y="2844" fill="#2C7DA0">#2E7D6E</text>
+      <text x="4080.0" y="2844" fill="#F5B301">#2C7DA0</text>
+      <text x="6800.0" y="2844" fill="#D64545">#F5B301</text>
+      <text x="9520.0" y="2844" fill="#2E7D6E">#D64545</text>
+    </g>
+  </g>
+  <g id="Neutros" transform="translate(32640,0)" text-anchor="middle">
+    <rect x="00000" y="1632" width="2720" height="6528" fill="#FFFFFF"/>
+    <rect x="02720" y="1632" width="2720" height="6528" fill="#FBFBF8"/>
+    <rect x="05440" y="1632" width="2720" height="6528" fill="#ECEFF1"/>
+    <rect x="08160" y="1632" width="2720" height="6528" fill="#C7CDD1"/>
+    <rect x="10880" y="1632" width="2720" height="6528" fill="#7A8A93"/>
+    <rect x="13600" y="1632" width="2720" height="6528" fill="#2B3A40"/>
+    <text x="8160.0" y="1244" font-size="1224" font-weight="800" letter-spacing="0.4">Neutros</text>
+    <g id="Texto colores" transform="translate(0,4896)" font-size="600" font-weight="400" letter-spacing="0.4">
+      <text x="01360.0" y="2044" fill="#2B3A40">N0</text>
+      <text x="04080.0" y="2044" fill="#2B3A40">N50</text>
+      <text x="06800.0" y="2044" fill="#2B3A40">N200</text>
+      <text x="09520.0" y="2044" fill="#FFFFFF">N400</text>
+      <text x="12240.0" y="2044" fill="#FFFFFF">N600</text>
+      <text x="14960.0" y="2044" fill="#FFFFFF">N800</text>
+
+      <text x="01360.0" y="2844" fill="#2B3A40">#FFFFFF</text>
+      <text x="04080.0" y="2844" fill="#2B3A40">#FBFBF8</text>
+      <text x="06800.0" y="2844" fill="#2B3A40">#ECEFF1</text>
+      <text x="09520.0" y="2844" fill="#FFFFFF">#C7CDD1</text>
+      <text x="12240.0" y="2844" fill="#FFFFFF">#7A8A93</text>
+      <text x="14960.0" y="2844" fill="#FFFFFF">#2B3A40</text>
+    </g>
+  </g>
+  <g id="Rectas separadoras" style="transform: none;">
+    <rect x="00000" y="1607" width="48960" height="0050" fill="#000000"/>
+    <rect x="10855" y="0000" width="00050" height="8160" fill="#000000"/>
+    <rect x="21735" y="0000" width="00050" height="8160" fill="#000000"/>
+    <rect x="32615" y="0000" width="00050" height="8160" fill="#000000"/>
+  </g>
+</svg>
