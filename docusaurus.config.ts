@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'VolPYT',
   tagline: 'Documentation from Plan Your Team, Plan Your Time',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/mine/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
