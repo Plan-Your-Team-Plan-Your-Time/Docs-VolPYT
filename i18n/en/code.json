@@ -1,0 +1,27 @@
+{
+    "feature.HomepageFeatures.facilDeUsar.title": {
+        "message": "Easy to Use",
+        "description": "The homepage feature title for easy to use"
+    },
+    "feature.HomepageFeatures.facilDeUsar.message": {
+        "message": "VolPYT was designed from the ground up to facilitate team management, providing the necessary features for organizational improvements to emerge. Thus, you can focus on what really matters: your team.",
+        "description": "The homepage feature description for easy to use"
+    },
+    "feature.HomepageFeatures.enfocadoEnLoImportante.title": {
+        "message": "Focus on What Matters",
+        "description": "The homepage feature title for focus on what matters"
+    },
+    "feature.HomepageFeatures.enfocadoEnLoImportante.message": {
+        "message": "We know that the most important thing when managing a team is to know what is happening in it. That's why VolPYT allows you to have a clear view of tasks, time, and your team's progress, so you can make informed and effective decisions.",
+        "description": "The homepage feature description for focus on what matters"
+    },
+    "feature.HomepageFeatures.seguroYDocumentado.title": {
+        "message": "Secure and Documented",
+        "description": "The homepage feature title for secure and documented"
+    },
+    "feature.HomepageFeatures.seguroYDocumentado.message": {
+        "message": "Thanks to its documentation and good development practices, VolPYT is a secure and reliable tool. In addition, its open source code allows the community to contribute and continuously improve the platform, ensuring that it is always at the forefront of equipment management needs.",
+        "description": "The homepage feature description for secure and documented"
+    }
+
+}

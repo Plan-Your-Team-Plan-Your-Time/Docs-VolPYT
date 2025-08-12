@@ -1,24 +1,7 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
-import ConfigLocalized from './docusaurus.config.localized.json';
-
-const defaultLocale = 'es';
-
-function getLocalizedConfigValue(key: keyof typeof ConfigLocalized) {
-  const currentLocale = process.env.DOCUSAURUS_CURRENT_LOCALE ?? defaultLocale;
-  const values = ConfigLocalized[key];
-  if (!values) {
-    throw new Error(`Localized config key=${key} not found`);
-  }
-  const value = values[currentLocale] ?? values[defaultLocale];
-  if (!value) {
-    throw new Error(
-      `Localized value for config key=${key} not found for both currentLocale=${currentLocale} or defaultLocale=${defaultLocale}`,
-    );
-  }
-  return value;
-}
+import getLocalizedConfigValue from './static/code/getLocalizedConfigValue';
 
 const config: Config = {
   title: 'VolPYT',
@@ -129,7 +112,7 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'WhoWeAre',
+              label: 'Who are we?',
               to: '/docs/intro',
             },
             {
