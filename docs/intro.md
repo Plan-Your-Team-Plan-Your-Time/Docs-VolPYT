@@ -6,10 +6,10 @@ sidebar_position: 1
 
 ![](/img/mine/banner_web.svg)
 
-Hoy día las organizaciones no tienen un sistema centralizado donde puedan tener integrado, en un mismo sitio, las tareas asignadas con el tiempo que ha llevado.
+Hoy en día, las organizaciones no cuentan con un sistema centralizado que les permita integrar en un mismo sitio las tareas asignadas y el tiempo empleado.
 
-Al no tener esta centralización, las métricas que pueden sacar de esa información es muy limitada, no pudiendo alcanzar nuevas metas de forma tan óptima como la deseada. Si a esto le añadimos que no se suele poder realizar un buen seguimiento del estado anímico del equipo, y por tanto se puede llegar a deteriorar el ánimo general y el rendimiento de éste.
+Al no tener esta centralización, las métricas que pueden obtener de esa información son muy limitadas, por lo que no pueden alcanzar nuevas metas de forma tan óptima como desearían. A esto hay que añadir que no se suele poder realizar un buen seguimiento del estado anímico del equipo, por lo que se puede llegar a deteriorar el ánimo general y el rendimiento.
 
-En consecuencia de esto, los líderes de las empresas se enfrentan a un contexto donde cada vez se exige más en menos tiempo, y acaban por no entender qué está sucediendo en el equipo o por qué suceden ciertos retrasos importantes que no ayudan a que se cumplan los tiempos.
+En consecuencia, los líderes empresariales se enfrentan a un contexto en el que se exige cada vez más en menos tiempo y acaban sin entender qué está sucediendo en el equipo o por qué se producen retrasos importantes que no ayudan a cumplir los plazos.
 
 Para solucionar estos problemas surge Plan Your Team, Plan Your Time, más concretamente con la plataforma VolPYT.
