@@ -122,7 +122,7 @@ const config: Config = {
           label: 'Documentation',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/Plan-Your-Team-Plan-Your-Time/Docs-VolPYT',
           label: 'GitHub',
           position: 'right',
         },
@@ -164,13 +164,9 @@ const config: Config = {
         {
           title: 'More',
           items: [
-            // {
-            //   label: 'Blog',
-            //   to: '/blog',
-            // },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/Plan-Your-Team-Plan-Your-Time/Docs-VolPYT',
             },
           ],
         },

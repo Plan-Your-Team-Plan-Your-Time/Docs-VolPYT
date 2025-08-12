@@ -33,7 +33,7 @@
   },
   "link.item.label.GitHub": {
     "message": "GitHub",
-    "description": "The label of footer link with label=GitHub linking to https://github.com/facebook/docusaurus"
+    "description": "The label of footer link with label=GitHub linking to https://github.com/Plan-Your-Team-Plan-Your-Time/Docs-VolPYT"
   },
   "copyright": {
     "message": "Copyright © 2025 Plan Your Team, Plan Your Time, Inc. Built with Docusaurus.",
