@@ -1,0 +1,8 @@
+{
+  "label": "Planificación", 
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Para ver la planificación general del proyecto, acceder al Plan de Proyecto. Si no, se pueden acceder a otros documentos más detallados, de los que aparecen a continuación."
+  }
+}
