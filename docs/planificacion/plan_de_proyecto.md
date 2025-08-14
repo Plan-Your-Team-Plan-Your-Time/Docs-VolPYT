@@ -32,8 +32,6 @@ toc_max_heading_level: 4 # Índice lateral a la derecha máximo, H4
     1. [Línea base del alcance](#línea-base-del-alcance)
         1. [EDT](#edt)
     2. [Línea base del cronograma](#línea-base-del-cronograma)
-        1. [Lista de hitos](#lista-de-hitos)
-        2. [Cronograma](#cronograma)
     3. [Línea base de costes](#línea-base-de-costes)
         1. [Presupuesto, CapEx y OpEx](#presupuesto-capex-y-opex)
         2. [Rentabilidad de la plataforma](#rentabilidad-de-la-plataforma)
@@ -99,7 +97,7 @@ Para ver más en detalles, se pueden encontrar en la documentación detallada de
 
 ### Línea base del cronograma
 
-Teniendo en cuenta la [EDT y su diccionario](/docs/planificacion/lineas-base/del_alcance.md#edt), obtenemos el [cronograma](/docs/planificacion/lineas-base/del_cronograma.md#línea-base-del-cronograma).
+Teniendo en cuenta la [EDT y su diccionario](/docs/planificacion/lineas-base/del_alcance.md#edt), obtenemos el [cronograma](/docs/planificacion/lineas-base/del_cronograma.md#cronograma).
 
 En el [cronograma](/docs/planificacion/lineas-base/del_cronograma.md#cronograma) podemos ver en detalle cómo se desarrollarán las distintas fases del proyecto, aquí vistas a modo de resumen:
 

@@ -20,7 +20,7 @@ sidebar_position: 2
 
 ## Índice
 
-1. [OpEx](#opex)
+1. [Costes OpEx](#costes-opex)
     1. [Costes de personal](#costes-de-personal)
     2. [Costes de licencias](#costes-de-licencias)
     3. [Costes de suscripciones](#costes-de-suscripciones)
@@ -28,7 +28,7 @@ sidebar_position: 2
     5. [Costes generales OpEx](#costes-generales-opex)
 
 
-## OpEx
+## Costes OpEx
 
 En OpEx tenemos costes variables, que se dividen en el coste por hora de los empleados que ayudan al mantenimiento de la aplicación, licencias, suscripciones necesarias a herramientas y material necesario para mantener la herramienta; y los costes que tiene el marketing para dar a conocer la herramienta. Todos estos costes son los necesarios para el mantenimiento y publicidad del proyecto. Por ello están dentro del OpEx.
 

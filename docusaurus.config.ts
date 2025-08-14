@@ -32,7 +32,7 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'es',
-    locales: ['es', 'en'],
+    locales: ['es'],
   },
 
   stylesheets: [
@@ -55,6 +55,7 @@ const config: Config = {
           remarkPlugins: [require('remark-math')],
           rehypePlugins: [require('rehype-katex')],
         },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },

@@ -20,12 +20,12 @@ sidebar_position: 3
 
 ## Índice
 
-1. [OpEx](#opex)
-    1. [Costes de personal](#costes-de-personal)
-    2. [Costes de licencias](#costes-de-licencias)
-    3. [Costes de suscripciones](#costes-de-suscripciones)
-    4. [Costes de marketing](#costes-de-marketing)
-    5. [Costes generales OpEx](#costes-generales-opex)
+1. [Número estimado de usuarios](#número-estimado-de-usuarios)
+2. [Coste de las peticiones](#coste-de-las-peticiones)
+    1. [Coste por petición](#coste-por-petición)
+    2. [Media de peticiones por usuario al mes](#media-de-peticiones-por-usuario-al-mes)
+    3. [Costes en servidores](#costes-en-servidores)
+3. [Beneficios y TCO desglosados](#beneficios-y-tco-desglosados)
 
 ## Número estimado de usuarios
 
@@ -68,11 +68,11 @@ Para ver cuánto cuesta una petición en Railway, se ha tenido que realizar una 
 | Egress (salida de datos) | 0,05$ GB/mes | 4,76837E-08 $ kB/min |  2.000 KB | 1,58946E-06 $ | 1,37329E-06 € |
 | | | | **Total** | 4,29007E-06 $ | **3,70662E-06 €** |
 
-### Media de meticiones por usuario al mes
+### Media de peticiones por usuario al mes
 
-Aquí diferenciaremos entre el caso optimista, esperado y pesimista para las próximas tablas. Con la [Tabla de peticiones esperadas](#tabla-peticiones-esperada) sabremos cuántas peticiones aproximadas hay por plan, y con la [Tabla de usuarios por plan](#tabla-usuarios-por-plan) sabremos cuántos usuarios hay de cada tipo de plan:
+Aquí diferenciaremos entre el caso optimista, esperado y pesimista para las próximas tablas. Con la [Tabla de peticiones esperadas](#tabla-de-peticiones-esperadas) sabremos cuántas peticiones aproximadas hay por plan, y con la [Tabla de usuarios por plan](#tabla-de-usuarios-por-plan) sabremos cuántos usuarios hay de cada tipo de plan:
 
-<strong id="tabla-peticiones-esperada">Tabla de peticiones esperadas</strong>
+#### Tabla de peticiones esperadas
 
 |  | Optimista | Esperado | Pesimista |
 | ----- | ----- | ----- | ----- |
@@ -81,7 +81,7 @@ Aquí diferenciaremos entre el caso optimista, esperado y pesimista para las pr�
 | Días trabajo | 20 | 20 | 20 |
 | **Total** | **32.000** | **40.000** | **48.000** |
 
-<strong id="tabla-usuarios-por-plan">Tabla de usuarios por plan</strong>
+#### Tabla de usuarios por plan
 
 | Plan | Precio | Optimista | Esperado | Pesimista |
 | ----- | ----- | ----- | ----- | ----- |

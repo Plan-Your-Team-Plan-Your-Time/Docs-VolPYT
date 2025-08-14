@@ -20,14 +20,14 @@ sidebar_position: 1
 
 ## Índice
 
-1. [CapEx](#capex)
+1. [Costes CapEx](#costes-capex)
 	1. [Costes de personal](#costes-de-personal)
 	2. [Costes de licencias](#costes-de-licencias)
 	3. [Costes de suscripciones](#costes-de-suscripciones)
 	4. [Costes de materiales de la organización](#costes-de-materiales-de-la-organización)
 	5. [Costes generales CapEx](#costes-generales-capex)
 
-## CapEx
+## Costes CapEx
 
 En el CapEx tenemos costes fijos y variables que afectan a esta herramienta. Se dividen en el coste por hora de los empleados, licencias, suscripciones a herramientas y material necesario para crear la herramienta. Todos estos costes son los necesarios para el desarrollo del proyecto, y por ello están dentro del CapEx. Recalcar las suscripciones que, aunque pudiese variar durante el desarrollo, es poco probable que suceda, y sería una variación mínima.
 

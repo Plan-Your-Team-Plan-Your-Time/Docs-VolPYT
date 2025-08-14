@@ -22,13 +22,15 @@ toc_max_heading_level: 3 # Índice lateral a la derecha máximo, H3
 
 ## Índice
 
-1. [Línea base del cronograma](#línea-base-del-cronograma)
-    1. [Lista de hitos](#lista-de-hitos)
-    2. [Cronograma](#cronograma)
+1. [Lista de hitos](#lista-de-hitos)
+2. [Cronograma](#cronograma)
+    1. [Devising a Project (DP)](#devising-a-project-dp)
+    2. [Sprint 1 (S1)](#sprint-1-s1)
+    3. [Sprint 2 (S2)](#sprint-2-s2)
+    4. [Sprint 3 (S3)](#sprint-3-s3)
+    5. [Cierre (C)](#cierre-c)
 
-## Línea base del cronograma
-
-### Lista de hitos
+## Lista de hitos
 
 | Id | Nombre del hito | Descripción | Fecha límite |
 | ----- | ----- | ----- | ----- |
@@ -38,26 +40,26 @@ toc_max_heading_level: 3 # Índice lateral a la derecha máximo, H3
 | 4 | Entrega TFG | Se entrega el el producto con todos los módulos de los requisitos obligatorios corregidos y testeados, así como la memoria del TFG. | 08/10/2025 |
 | 5 | Entrega presentación TFG | Se entrega la presentación del TFG. | 22/10/2025 |
 
-### Cronograma
+## Cronograma
 
 Teniendo en cuenta la EDT y su diccionario del archivo [EDT](/docs/intro.md), obtenemos el siguiente cronograma:
 
-**Devising a Project (DP)**:
+### Devising a Project (DP)
 
 ![Cronograma del DP](/img/plan/cronograma_dp.png)
 
-**Sprint 1 (S1)**:
+### Sprint 1 (S1)
 
 ![Cronograma del S1](/img/plan/cronograma_s1.png)
 
-**Sprint 2 (S2)**:
+### Sprint 2 (S2)
 
 ![Cronograma del S2](/img/plan/cronograma_s2.png)
 
-**Sprint 3 (S3)**:
+### Sprint 3 (S3)
 
 ![Cronograma del S3](/img/plan/cronograma_s3.png)
 
-**Cierre (C)**:
+### Cierre (C)
 
 ![Cronograma del Cierre](/img/plan/cronograma_cierre.png)

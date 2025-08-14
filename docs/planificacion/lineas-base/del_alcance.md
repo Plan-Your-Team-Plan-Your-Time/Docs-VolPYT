@@ -22,14 +22,16 @@ toc_max_heading_level: 4 # Índice lateral a la derecha máximo, H4
 
 ## Índice
 
-1. [Línea base del alcance](#línea-base-del-alcance)
-    1. [Enunciado del alcance](#enunciado-del-alcance)
-    2. [EDT](#edt)
-    3. [Diccionario de la EDT](#diccionario-de-la-edt)
+1. [Enunciado del alcance](#enunciado-del-alcance)
+2. [EDT](#edt)
+3. [Diccionario de la EDT](#diccionario-de-la-edt)
+    1. [Devising a Project (DP)](#devising-a-project-dp)
+    2. [Sprint 1 (S1)](#sprint-1-s1)
+    3. [Sprint 2 (S2)](#sprint-2-s2)
+    4. [Sprint 3 (S3)](#sprint-3-s3)
+    5. [Cierre (C)](#cierre-c)
 
-## Línea base del alcance
-
-#### Enunciado del alcance
+## Enunciado del alcance
 
 El proyecto consistirá en la integración de proyectos, tareas y entradas de tiempo que, combinadas, ayudarán a sacar en la propia plataforma métricas que suelen ser más complicadas de conseguir durante el avance del proyecto, o para proyectos futuros. Gracias a esta plataforma, se pretende fomentar la integración y conocimiento de las métricas, tanto en el campo de la informática como en el resto de trabajos en equipo.
 
@@ -43,11 +45,13 @@ A continuación se incluirá, en formato de tabla, los supuestos, exclusiones y 
 | La aplicación tendrá una gestión entre básica y moderada, sin personalizaciones de campos ni aspectos parecidos | Solicitudes de cambio que impliquen una ampliación del alcance del proyecto, con nuevos requisitos no previstos | Presupuesto dado |
 | Se realizarán los requisitos obligatorios, los suplementarios no están en el alcance, son futuras implementaciones | La inclusión de los requisitos suplementarios en el alcance del proyecto | Fecha de entrega del proyecto |
 
-### EDT
+## EDT
 
 ![EDT](/img/mine/EDT.svg)
 
-### Diccionario de la EDT
+## Diccionario de la EDT
+
+### Devising a Project (DP)
 
 | Id y nombre de paquete | 1.1 Redacción de requisitos |
 | ----- | ----- |
@@ -106,7 +110,7 @@ A continuación se incluirá, en formato de tabla, los supuestos, exclusiones y 
 | --------------------------- | ------------ | ------------ |
 | 1.4.1 Seguimiento y control | 11 días      | Consultor    |
 
----
+### Sprint 1 (S1)
 
 | Id y nombre de paquete | 2.1 Backend MVP |
 | ----- | ----- |
@@ -169,7 +173,7 @@ A continuación se incluirá, en formato de tabla, los supuestos, exclusiones y 
 | 2.4.2 Replanificación Sprint 2 | 2 días | Project Manager |
 | 2.4.3 Preparación correo y plantilla para usuarios piloto | 2 días | Programador Frontend |
 
----
+### Sprint 2 (S2)
 
 | Id y nombre de paquete | 3.1 Backend pagos y admin |
 | ----- | ----- |
@@ -226,7 +230,7 @@ A continuación se incluirá, en formato de tabla, los supuestos, exclusiones y 
 | 3.4.3 Replanificación Sprint 3 | 2 días | Project Manager |
 | 3.4.4 Preparación correo y plantilla para usuarios piloto | 2 días | Programador Frontend |
 
----
+### Sprint 3 (S3)
 
 | Id y nombre de paquete | 4.1 Desarrollo código |
 | ----- | ----- |
@@ -255,7 +259,7 @@ A continuación se incluirá, en formato de tabla, los supuestos, exclusiones y 
 | 4.2.1 Evaluación plantilla usuarios piloto | 0.5 días | Programador Frontend |
 | 4.2.2 Correcciones de los usuarios piloto | 4 días | Programador Backend, Programador Frontend |
 
----
+### Cierre (C)
 
 | Id y nombre de paquete | 5. Cierre |
 | ----- | ----- |
