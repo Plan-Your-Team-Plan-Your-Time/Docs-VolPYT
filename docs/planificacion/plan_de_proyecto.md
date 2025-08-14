@@ -111,6 +111,10 @@ En el [cronograma](/docs/planificacion/lineas-base/del_cronograma.md#cronograma)
 
 ### Línea base de costes
 
+Gracias a la planificación realizada en MS Project y el cronograma y recursos necesarios estimados, obtenemos la curva S de costes base del proyecto, además de un análisis de costes que debe cumplirse en el proyecto.
+
+![Curva S de costes](/img/plan/costes/Curva_S_de_costes.png)
+
 #### Presupuesto, CapEx y OpEx
 
 Se dispone de un presupuesto de 25.000€ para la realización del proyecto. Esta cifra no es superada en en análisis de costes del proyecto, al tener un [CapEx](/docs/planificacion/lineas-base/costes/capex.md) de 24.490,61€. A dicha cifra se han sumado costes de personal, infraestructura, licencias, suscripciones necesarias y equipo y material. Y está incluida una pequeña contingencia, en caso de que haya retrasos o fallos no esperados durante la realización del proyecto.
