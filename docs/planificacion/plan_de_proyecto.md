@@ -8,7 +8,7 @@ toc_max_heading_level: 4 # Índice lateral a la derecha máximo, H4
 # Plan de Proyecto
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
+  <img src="/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
   <strong>Escuela Técnica Superior de Ingeniería Informática</strong><br/>
   Trabajo realizado por: <strong>José María Portela Huerta</strong><br/>
   En el grado de: <strong>Ingeniería Informática – Ingeniería del Software</strong>
@@ -35,7 +35,8 @@ toc_max_heading_level: 4 # Índice lateral a la derecha máximo, H4
         1. [Lista de hitos](#lista-de-hitos)
         2. [Cronograma](#cronograma)
     3. [Línea base de costes](#línea-base-de-costes)
-        1. [Presupuesto](#presupuesto)
+        1. [Presupuesto, CapEx y OpEx](#presupuesto-capex-y-opex)
+        2. [Rentabilidad de la plataforma](#rentabilidad-de-la-plataforma)
 
 
 ## Objetivos
@@ -112,4 +113,18 @@ En el [cronograma](/docs/planificacion/lineas-base/del_cronograma.md#cronograma)
 
 ### Línea base de costes
 
-#### Presupuesto
+#### Presupuesto, CapEx y OpEx
+
+Se dispone de un presupuesto de 25.000€ para la realización del proyecto. Esta cifra no es superada en en análisis de costes del proyecto, al tener un [CapEx](/docs/planificacion/lineas-base/costes/capex.md) de 24.490,61€. A dicha cifra se han sumado costes de personal, infraestructura, licencias, suscripciones necesarias y equipo y material. Y está incluida una pequeña contingencia, en caso de que haya retrasos o fallos no esperados durante la realización del proyecto.
+
+Para el [OpEx](/docs/planificacion/lineas-base/costes/opex.md) se han estimado unos 5.831,12€ mensuales que se presuponen que se mantendrán a lo largo del tiempo, o que al menos no variarán excesivamente. En ellos vienen incluidos costes de marketing, personal para mantener los problemas de la plataforma, licencias y suscripciones.
+
+Como se puede apreciar, no se han incluido los gastos de servidor en el OpEx porque se ha realizado un análisis más profundo de cuánto puede suponer sus costes según el número de usuarios. Con ello se pretende visualizar de forma más realista los costes supuestos en la plataforma. Para ver dicho análisis, se puede consultar en [este documento](/docs/planificacion/lineas-base/costes/estimacion_usuarios.md)
+
+#### Rentabilidad de la plataforma
+
+En la siguiente gráfica podemos ver que la plataforma se vuelve rentable a los 9, 13 y 33 meses desde que se acabe el desarrollo del proyecto, para los casos optimista, esperado y pesimista respectivamente.
+
+<p align="center">
+	<img src="/img/plan/costes/momentos_rentabilidad.png" alt="Momento de rentabilidad para cada caso" height="250"/>
+</p>

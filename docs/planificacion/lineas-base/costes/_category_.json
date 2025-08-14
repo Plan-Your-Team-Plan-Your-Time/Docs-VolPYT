@@ -1,0 +1,8 @@
+{
+  "label": "Costes", 
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "A continuación se puede acceder a un resumen de los costes estimados del proyecto, así como a los planes optimista, esperado y pesimista por separado y más detallado."
+  }
+}

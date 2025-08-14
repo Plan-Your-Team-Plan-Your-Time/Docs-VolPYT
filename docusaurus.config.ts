@@ -35,12 +35,25 @@ const config: Config = {
     locales: ['es', 'en'],
   },
 
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css',
+      type: 'text/css',
+      crossorigin: 'anonymous',
+    },
+  ],
+  markdown: {
+    mermaid: true, // si usas Mermaid también
+  },
+
   presets: [
     [
       'classic',
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          remarkPlugins: [require('remark-math')],
+          rehypePlugins: [require('rehype-katex')],
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -98,6 +111,7 @@ const config: Config = {
           position: 'left',
           label: 'Documentation',
         },
+        {to: 'pricing', label: 'Precios', position: 'left'},
         {
           href: 'https://github.com/Plan-Your-Team-Plan-Your-Time/Docs-VolPYT',
           label: 'GitHub',
