@@ -15,7 +15,7 @@
     "message": "¿Quienes somos?",
     "description": "The label of footer link with label=Tutorial linking to /docs/intro"
   },
-  "link.item.label.Documentation": {
+  "link.item.label.Documentación": {
     "message": "Documentación",
     "description": "The label of footer link with label=Tutorial linking to /docs/intro"
   },

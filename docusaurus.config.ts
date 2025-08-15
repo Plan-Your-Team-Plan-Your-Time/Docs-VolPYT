@@ -110,7 +110,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Documentation',
+          label: 'Documentación',
         },
         {to: 'pricing', label: 'Precios', position: 'left'},
         {
@@ -127,11 +127,11 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Who are we?',
+              label: '¿Quienes somos?',
               to: '/docs/intro',
             },
             {
-              label: 'Documentation',
+              label: 'Documentación',
               to: '/docs/intro',
             },
           ],
