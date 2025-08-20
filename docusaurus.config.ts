@@ -83,7 +83,7 @@ const config: Config = {
 
   scripts: [
     {
-      src: "https://cdn.vercel-insights.com/v1/speed-insights.js",
+      src: "/_vercel/speed-insights/script.js",
       defer: true,
     },
   ],
