@@ -79,7 +79,14 @@ const config: Config = {
         },
       },
     ],
-  ],  
+  ],
+
+  scripts: [
+    {
+      src: "https://cdn.vercel-insights.com/v1/speed-insights.js",
+      defer: true,
+    },
+  ],
 
   themeConfig: {
     // Replace with your project's social card
