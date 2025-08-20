@@ -1,41 +1,24 @@
 # Website
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Esta web se ha construido usando [Docusaurus](https://docusaurus.io/), un generador moderno de páginas web estáticas.
 
-## Installation
+Mencionar que estas guías están pensadas para usuarios en Windows.
 
-```bash
-yarn
-```
+## Comandos de utilidad
 
-## Local Development
+En caso de querer usar en local este proyecto, recomendable el comando `npx doucsurus start --locale es`, con mención a que la opción `locale` se usa para indicar qué configuración de idioma se quiere usar exactamente.
 
-```bash
-yarn start
-```
+Antes de desplegar el proyecto, es recomendable el comando `npx docusaurus build --no-minify`, ya que éste te mostrará errores que no se ven ahora mismo por `npx docusaurus start`, como puede ser que falte un archivo de idioma. Mencionar que la opción `no-minify` sirve para no minimizar paquetes JS. Para otras opciones, ejecutar `npx docusaurus build --help`
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## Idiomas
 
-## Build
+Por lo general, toda la documentación se encontrará en español, y se intentará traducir toda al inglés para poder internacionalizar el proyecto. _Importante_ es saber que, si falta algún documento en el idioma que se quiere añadir, docusaurus fallará por falta de documentación para una URL.
+
+Si se quiere añadir un nuevo idioma, como puede ser el francés (fr), es altamente recomendable ejecutar los siguientes comandos:
 
 ```bash
-yarn build
+mkdir -p i18n/fr/docusaurus-plugin-content-docs/current/                                         
+cp docs/intro.md i18n/fr/docusaurus-plugin-content-docs/current/intro.md
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Así se crea la carpeta para los archivos de traducción, para otras traducciones es recomendable fijarse en los ejemplos que aparece en la lengua inglesa.

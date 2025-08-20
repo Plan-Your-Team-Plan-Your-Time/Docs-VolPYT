@@ -1,0 +1,8 @@
+{
+  "label": "Diseño", 
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Aquí se puede encontrar la documentación relacionada con el diseño del proyecto, incluyendo guías de estilo, paletas de colores y otros recursos visuales."
+  }
+}
