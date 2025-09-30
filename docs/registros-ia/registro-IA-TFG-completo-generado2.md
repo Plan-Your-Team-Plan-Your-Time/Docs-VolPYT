@@ -17,6 +17,7 @@ sidebar_position: 1
 | Versión | Fecha | Descripción de cambios |
 | ----- | ----- | :---- |
 | v1.0 | 28/09/2025 | Creación del documento y añadidos todos los usos de la IA en el TFG. |
+| v1.1 | 30/09/2025 | Prompts añadidos del día. |
 
 ## Índice
 1. [Usos principales de la IA](#usos-principales-de-la-ia)
@@ -168,3 +169,4 @@ sidebar_position: 1
 | 125 | 23/09/2025  | Añadir miembros a un proyecto                            | Añadir miembros proyecto                     | 4          | Se explica cómo modelar la relación entre proyectos y usuarios, asignando roles y validando permisos de acceso. | Se obtiene un añadido avanzado de miembros al proyecto. | [Enlace](https://chatgpt.com/share/68d90e4e-0d9c-800f-a31f-a5eed0368703) |
 | 126 | 23/09/2025  | Diseño de base de datos para proyectos                   | Diseño base de datos                         | 3          | Se revisan principios de diseño de bases de datos aplicados a sistemas de gestión de proyectos, como normalización y claves foráneas. | Se pensaba que había un error en la BBDD en cómo se modeló, a la hora de que un usuario viese y accediese a sus proyectos. Al final, se vió que no era necesario un cambio de la BBDD, sino solo cambiar dos métodos en el repositorio para permitir que el usuario viese sus proyectos personales. | [Enlace](https://chatgpt.com/share/68d90e6b-1084-800f-9a13-fd35679b3b15) |
 | 127 | 24/09/2025  | Solución a errores de build con pnpm                     | Fix pnpm build issues                        | 17         | Se explican fallos de build con pnpm y cómo resolverlos revisando dependencias, lockfiles y configuración de Nixpacks. | Se intenta solucionar errores locales de pnpm por fallo en el despliegue. Al final se resuelve todo adecuadamente. | [Enlace](https://chatgpt.com/share/68d90e96-ad9c-800f-a23c-66650b064c89) |
+| 128 | 30/09/2025  | Ignorar warning de propiedades no setteadas y optimización para rellenarlo en una lista de tareas | Ignorar propiedades en mapper                        | 2         | Se explican atributos de Mapping para ignorar el warning, así como se genera el código necesario para evitar N + 1 queries a la BBDD | Se aprende sobre atributos de mapping, así como @AfterMapping, cómo ayuda a evitar el problema de N + 1 queries contra la base de datos. | [Enlace](https://chatgpt.com/share/68dbbce4-23bc-800f-abc0-d3c35ca5652e) |
