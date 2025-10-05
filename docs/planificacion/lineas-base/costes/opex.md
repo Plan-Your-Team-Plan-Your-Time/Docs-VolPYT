@@ -67,7 +67,7 @@ Aquí se desglosa en formato de tabla los costes de las suscripciones del equipo
 
 ### Costes de marketing
 
-Aquí se desglosa en formato de tabla los costes de los materiales del equipo en el proyecto. El agua y electricidad son necesarios contarlos al ser un trabajo telemático el que se realiza en el proyecto.
+Aquí se desglosa en formato de tabla los costes de marketing que van a ser necesarios al mes para llegar a más usuarios, y así asegurar una subida de usuarios constante.
 
 | Nombre gasto marketing | Coste total |
 | ------ | ------ |
